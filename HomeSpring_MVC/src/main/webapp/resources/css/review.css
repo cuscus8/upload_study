@@ -1,0 +1,121 @@
+
+  #reviewContent {
+    margin: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+  .reviewContent #backList {
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .reviewContent #backList a {
+    text-decoration: underline;
+    color: black;
+
+    cursor: pointer;
+  }
+
+  .reviewContent #reviewBody {
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .reviewContent #reviewItem {
+	
+    border:#CAE9FF solid 3px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+
+  }
+
+  .reviewContent #reviewInfo h2 {
+    text-align: left;
+  }
+
+
+  .reviewContent #reviewMain #detail img {
+    width: 93%;
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+
+  }
+
+
+  .reviewContent #etc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+
+  .reviewContent #etc p {
+    display: inline-block;
+  }
+
+  .reviewContent #reviewMain {
+
+    position: relative;
+    margin-top: 20px;
+    height: 50%;
+    padding: 20px;
+    line-height: 25px;
+  }
+
+  .reviewContent #like {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .reviewContent #reviewFoot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+  }
+
+  .reviewContent #commentWrite {
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+
+  }
+
+  .reviewContent #commentWrite textarea {
+    padding: 15px;
+    width: 80%;
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: 1;
+  }
+
+  .reviewContent #commentWrite button {
+    vertical-align: top;
+    margin-left: 0;
+    width: 121px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: #F8F6F4;
+  }
+
+
+  .reviewContent #reviewUtil {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+

@@ -1,0 +1,79 @@
+#themaBoardContent {
+	display: flex;
+	display: inline-block;
+}
+
+#title{
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom: 20px;
+}
+
+#themaTags button {
+	background: #A0E3F2;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+#themaTags button:hover {
+	cursor: pointer;
+}
+
+.contentBox:first-of-type {
+	height: 300px; /* 원하는 높이로 수정 */
+}
+
+.boxContent {
+	/*border: 3px white dotted;*/
+	height: 190px;
+	padding: 10px;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+.themaBoard {
+	display: flex;
+	align-items: center; /* 세로 중앙 정렬 */
+}
+
+.themaBoardImg {
+	border: #A0E3F2 solid 2px; 
+	width : 280px;
+	height: 204px;
+	margin: 10px;
+	width: 280px; /* 요소들 사이의 간격을 조정 */
+}
+
+.vertical-container {
+	margin: 15px 30px; /* 요소들 사이의 간격을 조정 */
+}
+.themaTitle{
+	font-weight:bold;
+	font-size:18px;
+}
+#themaText {
+	margin-top: 20px;
+}
+
+/*이전 이후 button*/
+#boardButtons {
+	display: flex;
+	text-align: center;
+	align-items: center; /* 세로 중앙 정렬 */
+	
+}
+#boardButtons button:first-of-type {
+
+	margin-left:200px;
+}
+#boardButtons button {
+	background: #A0E3F2;
+	border: none;
+	border-radius: 5px;
+	margin: 50px 10px 30px 10px;
+}
+
+#boardButtons button:hover {
+	cursor: pointer;
+}

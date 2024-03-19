@@ -1,0 +1,58 @@
+#reviewListHeader h1 {
+	margin-bottom: 20px;
+	margin-left: 70px;
+	text-align: center;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+#reviewList {
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	 border:#CAE9FF solid 3px;
+	 border-radius:20px;
+}
+
+#reviewListMain {
+	
+	width: 100%;
+	padding:10px;
+}
+
+#reviewListMain .reviewListItem {
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	display: inline-block;
+	background-color: white;
+	width: 27%;
+	padding: 10px;
+	margin: 20px 0 20px 15px;
+}
+
+#reviewListMain table {
+	width: 100%;
+	
+}
+
+#reviewListMain .reviewListItem tr:nth-child(1) img {
+	width: 100%;
+	height: 300px;
+}
+
+#reviewListMain .reviewListItem tr:nth-last-child(1) img {
+	width: 20px;
+	height: 20px;
+}
+
+#reviewListFoot {
+	
+	
+	text-align: center;
+}
+
+#reviewListUtil {
+	margin-top: 30px;
+	text-align: center;
+}

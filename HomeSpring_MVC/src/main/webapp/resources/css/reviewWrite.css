@@ -1,0 +1,55 @@
+
+#reviewWrite::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#reviewWriteMain {
+	width: 100%;
+	border-radius: 25px;
+	padding: 10px;
+	border:#CAE9FF solid 3px;
+	background-color: white;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	padding: 10px;
+	height: 50px;
+	text-align: left;
+}
+
+form {
+	margin: 30px 0;
+}
+
+#title {
+	width: 90%;
+	margin: 0 auto;
+	border-width: 0 0 0.5px 0;
+	outline: none;
+	height: 3em;
+	line-height: 3em;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#reviewWriteBtn {
+	text-align: center;
+	width: 30%;
+	height: 50px;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: 15px;
+	font-size: 20px;
+	font-style: italic;
+	cursor: pointer;
+}
+
+tr:last-child td:nth-child(1) {
+	text-align: center;
+}
